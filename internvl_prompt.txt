@@ -1,0 +1,48 @@
+This is an image of an Indian Bio-Data form with fixed fields. Your task is to extract the following fields and return the result as valid JSON. The form title is "BIO-DATA", and the layout is consistent.
+
+Here are the fields to extract:
+
+1. form_id
+2. candidate_name
+3. father_or_husband_name
+4. date_of_birth
+5. qualification
+6. marital_status
+7. gender
+8. blood_group
+9. nationality
+10. experience (can have two lines: (a) and (b))
+11. present_address
+12. permanent_address
+13. contact_number
+14. alternate_number (optional)
+15. languages_known
+16. references_mobile_number (format: Name - Number; number can be missing)
+17. government_id (either Aadhar or PAN)
+18. place (where form was filled)
+19. date (when form was filled)
+
+Return the extracted values in this exact JSON format. If a field is not found, return it as null. Dates or phone numbers should not be reformatted—keep the original OCR text. Use lists where multiple values exist.
+
+Format:
+{
+  "form_id": ...,
+  "candidate_name": "...",
+  "father_or_husband_name": "...",
+  "date_of_birth": "...",
+  "qualification": "...",
+  "marital_status": "...",
+  "gender": "...",
+  "blood_group": "...",
+  "nationality": "...",
+  "experience": ["...", "..."],
+  "present_address": "...",
+  "permanent_address": "...",
+  "contact_number": "...",
+  "alternate_number": "...",
+  "languages_known": ["...", "..."],
+  "references_mobile_number": ["Name1 - Number1", "Name2 -"],
+  "government_id": {"type": "Aadhar or PAN", "value": "..."},
+  "place": "...",
+  "date": "..."
+}
