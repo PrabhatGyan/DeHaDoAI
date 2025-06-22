@@ -78,4 +78,6 @@ Outputs:
 
 ## 📫 Contact
 
-For queries or contributions, feel free to reach out or raise an issue.
+For queries or contributions, feel free to reach out to
+Gyan Prabhat
+[E-mail](prabhat.1@iitj.ac.in)
