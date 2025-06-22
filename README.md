@@ -63,7 +63,7 @@ It will generate one `.txt` file per image in the output folder.
 ### Step 2: Generate Summary Metrics
 
 - Open `prod_summary.ipynb`
-- Set `BASE_PATH` to dataset root
+- Set `BASE_PATH` to the dataset root
 - Set `TAG` to match the OCR output folder name
 - Run the notebook
 
@@ -78,6 +78,7 @@ Outputs:
 
 ## 📫 Contact
 
-For queries or contributions, feel free to reach out to
-Gyan Prabhat
-[E-mail](prabhat.1@iitj.ac.in)
+For queries or contributions, feel free to reach out to:
+
+**Gyan Prabhat**  
+📧 [prabhat.1@iitj.ac.in](mailto:prabhat.1@iitj.ac.in)
